@@ -16,28 +16,28 @@ Project Structure:
   Functionality:
       Adding Tasks:
 
-        Users can input new tasks in the text field and press "Add" or hit Enter to add them to the list.
-        Tasks are dynamically added to the unordered list (<ul>).
+  Users can input new tasks in the text field and press "Add" or hit Enter to add them to the list.
+  Tasks are dynamically added to the unordered list (<ul>).
+  
   Completing Tasks:
-
-        Each task item has a checkbox that users can toggle to mark tasks as completed.
-        Completed tasks are visually indicated with a strikethrough text style.
+      Each task item has a checkbox that users can toggle to mark tasks as completed.
+      Completed tasks are visually indicated with a strikethrough text style.
+  
   Deleting Tasks:
-
         Each task item has a "Delete" button that removes the task from the list when clicked.
+  
   Local Storage:
-
         Tasks are stored locally using browser's localStorage.
         Saved tasks persist across page reloads, allowing users to revisit the page and see their previously entered tasks.
+  
   Technologies Used:
-
         HTML5: Provides the structure of the webpage, defining elements such as input fields, buttons, and lists.
         CSS3: Styles the webpage for a visually appealing and responsive design, including layout, colors, and background image.
         JavaScript (ES6+): Implements the dynamic behavior of the to-do list, handling user interactions, updating the DOM, and managing local storage.
         Local Storage: Stores tasks locally in the browser, allowing data persistence between sessions without the need for a backend server.
         Responsive Design: Uses flexbox and media queries to ensure the application adapts well to different screen sizes and devices.
+  
   User Experience:
-
         Intuitive Interface: Simple and user-friendly interface for adding, completing, and deleting tasks.
         Visual Feedback: Immediate visual feedback when tasks are added, completed, or deleted.
         Persistent Data: Tasks are saved locally, providing a seamless user experience across multiple visits to the webpage.
